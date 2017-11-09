@@ -1,0 +1,22 @@
+header {
+    background-color: black;
+    color: #BBBB47;
+    padding: 10px;
+    text-align: center;
+} 
+
+#playerId {
+    color: white;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    height: 10%;
+    width: 10%;
+    
+}
+
+botton:hover {
+    background-color: yellow;
+}

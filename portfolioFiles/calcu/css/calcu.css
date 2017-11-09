@@ -1,0 +1,20 @@
+
+button {
+    height: 70px;
+    width: 65px;
+}
+
+.screen {
+    height: 70px;
+    /* width: 200px; */
+    border: solid black;
+}
+
+.calcu {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.screen {
+    background-color: beige;
+}

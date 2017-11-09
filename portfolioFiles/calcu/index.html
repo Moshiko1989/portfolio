@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/calcu.css">
+    <title>CALCU</title>
+</head>
+
+<body>
+    <table class="calcu">
+        <tr>
+            <td colspan="3">  
+            <div class="screen">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addDigit(7)">7</button>
+            </td>
+            <td>
+                <button onclick="addDigit(8)">8</button>
+            </td>
+            <td>
+                <button onclick="addDigit(9)">9</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addDigit(4)">4</button>
+            </td>
+            <td>
+                <button onclick="addDigit(5)">5</button>
+            </td>
+            <td>
+                <button onclick="addDigit(6)">6</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addDigit(1)">1</button>
+            </td>
+            <td>
+                <button onclick="addDigit(2)">2</button>
+            </td>
+            <td>
+                <button onclick="addDigit(3)">3</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addOperator('+')">+</button>
+            </td>
+            <td>
+                <button onclick="addOperator('-')">-</button>
+            </td>
+            <td>
+                <button onclick="addOperator('*')">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addOperator('/')">/</button>
+            </td>
+            <td>
+                <button onclick="calculate()">=</button>
+            </td>
+            <td>
+                <button onclick="reset()">reset</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="memo('+')">m+</button>
+            </td>
+            <td>
+                <button onclick="memo('-')">m-</button>
+            </td>
+            <td>
+                <button onclick="memo(gMemoryNum)">mrc</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="js/calcu.js"></script>
+</body>
+
+</html>

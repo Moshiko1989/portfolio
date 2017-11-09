@@ -6,6 +6,15 @@ var gProjects = [{
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
   link: "https://www.google.com"
+}, 
+{
+  id: "calcu",
+  name: "Calculator",
+  title: "Tell me youre num & I'll tell you youre sum!",
+  desc: "It was a good slogen, but it can substract to...",
+  publishedAt: 1448693940001,
+  labels: ["Matrixes", "keyboard events"],
+  link: "https://www.google.com"
 }
 ]
 
@@ -55,13 +64,13 @@ function renderPopUp(arr) {
                 <!-- Project Details Go Here -->\
                 <h2>' + arr[i].name + '</h2>\
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>\
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/' + arr[i].id + '.jpg" alt="">\
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/' + arr[i].id + '.jpg" alt="' + arr[i].id + 'game">\
                 <p>' + arr[i].desc + '</p>\
                 <ul class="list-inline">\
                   <li>Date: January 2017</li>\
                   <li>Client:' + arr[i].name + '</li>\
                   <li>Category: Illustration</li>\
-                  <li><a href= ' + arr[i].link + '>Play Game</a></li>\
+                  <li><a href="../portfolioFiles/'+arr[i].id+'/index.html" target="_blank">Play Game</a></li>\
                 </ul>\
                 <button class="btn btn-primary" data-dismiss="modal" type="button">\
                     <i class="fa fa-times"></i>\

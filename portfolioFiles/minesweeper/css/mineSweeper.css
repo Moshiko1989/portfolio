@@ -1,0 +1,20 @@
+.covered {
+    border-style: solid;
+    background-color: black;
+    height: 50px;
+    width: 50px
+}
+.exposed {
+    border-style: solid;
+    background-color: lightblue;
+    height: 50px;
+    width: 50px
+}
+
+.marked {
+    border-style: solid;
+    color: red;
+    background-color: red;
+    height: 50px;
+    width: 50px
+}

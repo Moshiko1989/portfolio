@@ -1,0 +1,25 @@
+body {
+    background-color: lightcyan;
+}
+
+.cell {
+    border-style: solid;
+    background-color: #936060;
+    height: 50px;
+    width: 50px;
+}
+.player {
+    border-style: solid;
+    background-color: #348234;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.box {
+    border-style: solid;
+    background-color: orange;
+    border-radius: 25%;
+    height: 50px;
+    width: 50px;
+}

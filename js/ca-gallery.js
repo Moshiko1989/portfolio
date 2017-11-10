@@ -15,6 +15,16 @@ var gProjects = [{
   publishedAt: 1448693940001,
   labels: ["Matrixes", "keyboard events"],
   link: "https://www.google.com"
+},
+{
+  id: "Guess-Me",
+  name: "Guess-Me",
+  title: "The famous Know-It-All",
+  desc: "Think of a person, and the Guess-Me magician will tell you who it is",
+  publishedAt: 1448693940002,
+  labels: ["Matrixes", "keyboard events"],
+  link: "https://www.google.com"
+  
 }
 ]
 
